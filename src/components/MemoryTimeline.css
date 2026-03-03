@@ -1,0 +1,23 @@
+/* subtle hover lift on top of global styles */
+.memory-card .content {
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.memory-card:hover .content {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.8);
+}
+
+/* staggered reveal for more realistic motion */
+.memory-card:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.memory-card:nth-child(2) {
+  transition-delay: 0.25s;
+}
+.memory-card:nth-child(3) {
+  transition-delay: 0.4s;
+}
+.memory-card:nth-child(4) {
+  transition-delay: 0.55s;
+}
