@@ -76,7 +76,7 @@ const memories = [
   {
     date: "19 Jan 2026",
     image: "/mem14.jpg",
-    text: "My sweeth proposal 💖"
+    text: "My sweet proposal 💖"
   },
   {
     date: "Today",
@@ -128,3 +128,4 @@ export default function MemoryTimeline({ onFinish }) {
   );
 
 }
+
